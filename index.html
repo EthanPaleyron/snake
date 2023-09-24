@@ -6,12 +6,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/2621df78fc.js" crossorigin="anonymous"></script>
-  <title>name of the project</title>
+  <title>Snake</title>
 </head>
 
 <body>
 
-  <h1>Hello World</h1>
+  <main>
+    <h1>Snake</h1>
+    <canvas id="board"></canvas>
+    <select name="difficulty">
+      <option value="2000">Easy 🙃</option>
+      <option value="1500" selected>Normal 😕</option>
+      <option value="1000">Hard 😠</option>
+      <option value="500">Extreme 😈</option>
+    </select>
+  </main>
 
   <script type="module" src="/js/main.js"></script>
 </body>
